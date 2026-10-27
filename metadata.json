@@ -1,0 +1,8 @@
+{
+  "name": "KisanSetu - Direct Farm to Buyer Marketplace",
+  "description": "Direct farm-to-buyer agri-commerce platform connecting farmers, food hubs, CSAs with grocers, restaurants, and wholesale buyers. Features multilingual support (EN, HI, TE, TA, KN, MR), dynamic stock locking, tiered bulk pricing, harvest freshness badges, and 5-stage order workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
