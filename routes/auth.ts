@@ -1,8 +1,9 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
+import type { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { db } from '../server/db';
-import { SupportedLanguage } from '../src/i18n/translations';
+import { db } from '../server/db.ts';
+import type { SupportedLanguage } from '../src/types.ts';
 
 export const authRouter = express.Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'kisansetu_secure_jwt_secret_key_2026';

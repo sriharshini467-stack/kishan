@@ -1,4 +1,4 @@
-import { SupportedLanguage } from './i18n/translations';
+export type SupportedLanguage = 'en' | 'hi' | 'te' | 'ta' | 'kn' | 'mr';
 
 export type PrimaryRole = 'supplier' | 'buyer' | 'unassigned';
 

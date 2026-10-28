@@ -2,11 +2,11 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
-import { authRouter } from './routes/auth';
-import { productsRouter } from './routes/products';
-import { ordersRouter } from './routes/orders';
-import { weatherRouter } from './routes/weather';
-import { notificationsRouter } from './routes/notifications';
+import { authRouter } from './routes/auth.ts';
+import { productsRouter } from './routes/products.ts';
+import { ordersRouter } from './routes/orders.ts';
+import { weatherRouter } from './routes/weather.ts';
+import { notificationsRouter } from './routes/notifications.ts';
 
 dotenv.config();
 

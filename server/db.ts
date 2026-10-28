@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import { User, Product, Order, StockLock, InventoryHistoryRecord, NotificationLog, WeatherData } from '../src/types';
+import type { User, Product, Order, StockLock, InventoryHistoryRecord, NotificationLog, WeatherData } from '../src/types.ts';
 
 // In-memory persistent state with disk backup
 class DatabaseStore {

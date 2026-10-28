@@ -1,6 +1,7 @@
-import express, { Request, Response } from 'express';
-import { db } from '../server/db';
-import { authenticateToken } from './auth';
+import express from 'express';
+import type { Request, Response } from 'express';
+import { db } from '../server/db.ts';
+import { authenticateToken } from './auth.ts';
 
 export const notificationsRouter = express.Router();
 

@@ -1,5 +1,6 @@
-import express, { Request, Response } from 'express';
-import { db } from '../server/db';
+import express from 'express';
+import type { Request, Response } from 'express';
+import { db } from '../server/db.ts';
 
 export const weatherRouter = express.Router();
 

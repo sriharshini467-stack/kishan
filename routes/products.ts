@@ -1,7 +1,8 @@
-import express, { Request, Response } from 'express';
-import { db } from '../server/db';
-import { authenticateToken } from './auth';
-import { Product, PricingTier } from '../src/types';
+import express from 'express';
+import type { Request, Response } from 'express';
+import { db } from '../server/db.ts';
+import { authenticateToken } from './auth.ts';
+import type { Product, PricingTier } from '../src/types.ts';
 
 export const productsRouter = express.Router();
 
